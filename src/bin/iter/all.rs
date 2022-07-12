@@ -1,4 +1,4 @@
-
+// cargo run --bin iter_all
 fn main() {
     let v = vec![1, 2, 3, 4, 5];
     let valid = v.iter().all(|&x| {

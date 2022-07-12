@@ -1,4 +1,4 @@
-
+// cargo run --bin iter_chain
 // Takes two iterators and creates a new iterator over both in sequence.
 fn main() {
     let poultry = vec!["chicken", "quail", "duck"];
