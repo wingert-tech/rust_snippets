@@ -25,3 +25,7 @@ path="src/bin/iter/chain.rs"
 [[bin]]
 name="iter_cmp"
 path="src/bin/iter/cmp.rs"
+
+[[bin]]
+name="iter_enumerate"
+path="src/bin/iter/enumerate.rs"
