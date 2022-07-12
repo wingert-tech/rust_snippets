@@ -1,0 +1,23 @@
+[package]
+name = "rust_snippets"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name="iter"
+
+[[bin]]
+name="iter_all"
+path="src/bin/iter/all.rs"
+
+[[bin]]
+name="iter_any"
+path="src/bin/iter/any.rs"
+
+[[bin]]
+name="iter_chain"
+path="src/bin/iter/chain.rs"
