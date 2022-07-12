@@ -10,3 +10,4 @@ Place to store and lookup helpful rust snippets.  Adding them as I go along.  Cu
   - [Cmp](src/bin/iter/cmp.rs)
   - [Enumerate](src/bin/iter/enumerate.rs)
   - [Eq](src/bin/iter/eq.rs)
+  - [Filter](src/bin/iter/filter.rs)

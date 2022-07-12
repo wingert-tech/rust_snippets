@@ -33,3 +33,7 @@ path="src/bin/iter/enumerate.rs"
 [[bin]]
 name="iter_eq"
 path="src/bin/iter/eq.rs"
+
+[[bin]]
+name="iter_filter"
+path="src/bin/iter/filter.rs"
