@@ -21,3 +21,7 @@ path="src/bin/iter/any.rs"
 [[bin]]
 name="iter_chain"
 path="src/bin/iter/chain.rs"
+
+[[bin]]
+name="iter_cmp"
+path="src/bin/iter/cmp.rs"
