@@ -14,7 +14,7 @@ fn main() {
 
     // this example defines the closure type as a borrowed x
     let result: Vec<_> = v.iter().filter(|&x| {
-        // * removes a borrow, now ending up with the x standing on its own
+        // * use the previous borrow
         *x > 2
     }).collect();
 
@@ -22,7 +22,7 @@ fn main() {
 
     let v = vec![1, 2, 3, 4, 5];
     let result: Vec<_> = v.iter().filter(|x| {
-        // here you can remove the borrow twice
+        // here you can use the original borrow
         **x > 2
     }).collect();
 
