@@ -37,3 +37,11 @@ path="src/bin/iter/eq.rs"
 [[bin]]
 name="iter_filter"
 path="src/bin/iter/filter.rs"
+
+[[bin]]
+name="loop"
+path="src/bin/loop/main.rs"
+
+[[bin]]
+name="loop_assign"
+path="src/bin/loop/assign_from_loop.rs"
