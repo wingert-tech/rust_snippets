@@ -13,3 +13,6 @@ Place to store and lookup helpful rust snippets.  Adding them as I go along.  Cu
   - [Enumerate](src/bin/iter/enumerate.rs)
   - [Eq](src/bin/iter/eq.rs)
   - [Filter](src/bin/iter/filter.rs)
+
+[Loops](src/bin/loop)
+  - [Assign From](src/bin/loop/assign_from_loop.rs)
